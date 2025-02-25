@@ -1,0 +1,17 @@
+{
+  "name": "book_server",
+  "version": "1.0.0",
+  "description": "This is a backend server for our bookstore application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Sage",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
